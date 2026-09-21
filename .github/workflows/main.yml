@@ -1,0 +1,4 @@
+- name: Start App and Create Web URL Preview
+        run: |
+          python app.py &
+          npx ngrok http 8080
